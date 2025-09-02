@@ -1,3 +1,5 @@
 import 'package:flutter/material.dart';
 
-void
+void main() {
+  runApp(ArgumentError())
+}
