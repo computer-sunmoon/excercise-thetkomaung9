@@ -5,7 +5,8 @@ void main() {
     const Center(
       child:Text(
         'Hello, World!',
-        textDirection
+        textDirection: TextDirection.ltr,
+        style:TextStyle(fontSize: 32,)
       )
     )
 
