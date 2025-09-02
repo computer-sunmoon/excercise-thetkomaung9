@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(ArgumentError())
+  runApp(
+    const Center(
+      child:Text(
+        'Hello, World'
+      )
+    )
+
+  ))
 }
